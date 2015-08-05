@@ -1,0 +1,58 @@
+{
+  "name": "feathers-postgres",
+  "description": "Feathers Postgres service",
+  "version": "1.0.0",
+  "homepage": "https://github.com/feathersjs/feathers-postgres",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/feathersjs/feathers-postgres.git"
+  },
+  "bugs": {
+    "url": "https://github.com/feathersjs/feathers-postgres/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "feathers",
+    "feathers-plugin",
+    "REST",
+    "Socket.io",
+    "realtime",
+    "mongo",
+    "mongoskin",
+    "postgres",
+    "service"
+  ],
+  "author": "Feathers <hello@feathersjs.com> (http://feathersjs.com)",
+  "contributors": [
+    "Eric Kryski <e.kryski@gmail.com> (http://erickryski.com)",
+    "David Luecke <daff@neyeon.de> (http://neyeon.com)"
+  ],
+  "main": "lib/feathers-postgres.js",
+  "scripts": {
+    "publish": "git push origin --tags",
+    "release:patch": "npm version patch && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:major": "npm version major && npm publish",
+    "jshint": "jshint lib/. test/. --config",
+    "mocha": "mocha test/ --recursive",
+    "test": "npm run jshint && npm run mocha"
+  },
+  "engines": {
+    "node": "~0.10.0",
+    "npm": "~1.4.0"
+  },
+  "dependencies": {
+    "feathers-query-filters": "^1.1.1",
+    "lodash": "^3.10.0",
+    "pg": "^4.4.1",
+    "uberproto": "~1.1.2"
+  },
+  "devDependencies": {
+    "body-parser": "^1.4.3",
+    "chai": "^1.7.2",
+    "database-cleaner": "~0.7.0",
+    "feathers": "^1.1.0",
+    "jshint": "^2.7.0",
+    "mocha": "^1.12.1"
+  }
+}
