@@ -259,6 +259,9 @@ query: {
 
 ## Changelog
 
+### 1.0.1
+- Refactoring to ES6.
+
 ### 1.0.0
 - makes this adapter consistent with the others in terms of documentation and file structure
 - updates mongoskin dependency to the latest
@@ -287,3 +290,4 @@ query: {
 
 - [Eric Kryski](https://github.com/ekryski)
 - [David Luecke](https://github.com/daffl)
+- [Ruy Garcia](https://github.com/rrgarciach)
