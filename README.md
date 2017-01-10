@@ -1,7 +1,7 @@
-feathers-postgres
+feathers-postgresql
 ================
 
-[![NPM](https://nodei.co/npm/feathers-postgres.png?downloads=true&stars=true)](https://nodei.co/npm/feathers-postgres/)
+[![NPM](https://nodei.co/npm/feathers-postgresql.png?downloads=true&stars=true)](https://nodei.co/npm/feathers-postgresql/)
 
 [![Build Status](https://travis-ci.org/feathersjs/feathers-postgres.png?branch=master)](https://travis-ci.org/feathersjs/feathers-postgres)
 [![Code Climate](https://codeclimate.com/github/feathersjs/feathers-postgres.png)](https://codeclimate.com/github/feathersjs/feathers-postgres)
