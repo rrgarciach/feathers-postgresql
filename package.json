@@ -2,13 +2,13 @@
   "name": "feathers-postgres",
   "description": "Feathers Postgres service",
   "version": "1.0.0",
-  "homepage": "https://github.com/feathersjs/feathers-postgres",
+  "homepage": "https://github.com/rrgarciach/feathers-postgres",
   "repository": {
     "type": "git",
-    "url": "git://github.com/feathersjs/feathers-postgres.git"
+    "url": "git://github.com/rrgarciach/feathers-postgres.git"
   },
   "bugs": {
-    "url": "https://github.com/feathersjs/feathers-postgres/issues"
+    "url": "https://github.com/rrgarciach/feathers-postgres/issues"
   },
   "license": "MIT",
   "keywords": [
@@ -25,7 +25,8 @@
   "author": "Feathers <hello@feathersjs.com> (http://feathersjs.com)",
   "contributors": [
     "Eric Kryski <e.kryski@gmail.com> (http://erickryski.com)",
-    "David Luecke <daff@neyeon.de> (http://neyeon.com)"
+    "David Luecke <daff@neyeon.de> (http://neyeon.com)",
+    "Ruy Garcia <rrgarciach@gmail.de> (http://github.com/rrgarciach)"
   ],
   "main": "lib/feathers-postgres.js",
   "scripts": {

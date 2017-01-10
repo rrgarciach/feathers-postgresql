@@ -1,6 +1,6 @@
 var feathers = require('feathers'),
   bodyParser = require('body-parser'),
-  pgService = require('../lib/feathers-postgres');
+  pgService = require('../src/index');
 
 // Create a feathers instance.
 var app = feathers()
