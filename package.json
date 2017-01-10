@@ -1,5 +1,5 @@
 {
-  "name": "feathers-postgres",
+  "name": "feathers-postgresql",
   "description": "Feathers Postgres service",
   "version": "1.0.0",
   "homepage": "https://github.com/rrgarciach/feathers-postgres",
@@ -28,7 +28,7 @@
     "David Luecke <daff@neyeon.de> (http://neyeon.com)",
     "Ruy Garcia <rrgarciach@gmail.de> (http://github.com/rrgarciach)"
   ],
-  "main": "lib/feathers-postgres.js",
+  "main": "src/index.js",
   "scripts": {
     "publish": "git push origin --tags",
     "release:patch": "npm version patch && npm publish",
