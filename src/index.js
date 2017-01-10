@@ -1,10 +1,10 @@
-var Proto = require('uberproto');
-var pg = require('pg');
-var errors = require('feathers').errors.types;
-var filter = require('feathers-query-filters');
-var _ = require('lodash');
+let Proto = require('uberproto');
+let pg = require('pg');
+let errors = require('feathers').errors.types;
+let filter = require('feathers-query-filters');
+let _ = require('lodash');
 
-var PostgresService = Proto.extend({
+let PostgresService = Proto.extend({
   // TODO (EK): How do we handle indexes?
   init: function(table, options) {
     if (_.isObject(table)) {
@@ -204,8 +204,8 @@ var PostgresService = Proto.extend({
   }
 });
 
-module.exports = function(options) {
-  return Proto.create.call(PostgresService, options);
-};
+export default function init (options) {
+    return Proto.create.call(PostgresService, options);
+}
 
-module.exports.Service = PostgresService;
+init.Service = PostgresService;

@@ -1,7 +1,7 @@
 {
   "name": "feathers-postgresql",
   "description": "Feathers Postgres service",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/rrgarciach/feathers-postgres",
   "repository": {
     "type": "git",
